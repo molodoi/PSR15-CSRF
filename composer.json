@@ -1,0 +1,26 @@
+{
+    "name": "ticme/csrf",
+    "description": "A PSR15 compatible middleware to prevent CSRF",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Lamerant",
+            "email": "matthieu.lamerant-isc.France@ibm.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+          "Ticme\\Csrf\\": "src"
+      }
+    },
+    "require": {
+        "php": ">=7.0",
+        "http-interop/http-middleware": "^0.4.1"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    }
+}
