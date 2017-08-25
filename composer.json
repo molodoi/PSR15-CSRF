@@ -18,7 +18,6 @@
     "require": {
         "php": ">=7.0",
         "http-interop/http-middleware": "^0.4.1"
-
     },
     "require-dev": {
         "phpunit/phpunit": "^6.3"
